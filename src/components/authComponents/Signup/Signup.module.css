@@ -1,0 +1,105 @@
+.brand_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--blue);
+  margin: 0;
+}
+
+.email_input {
+  margin-top: 20px;
+  padding: 14px 16px;
+  background: #fafafa;
+  border: 1px solid #f5f5f5;
+  border-radius: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.email_input p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  color: #616161;
+}
+
+.email_input input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.email_input input:focus {
+  outline: none;
+}
+
+.is_loged_in {
+  margin: 26.5px auto;
+  color: var(--input_text_color);
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+}
+
+.is_loged_in a {
+  color: var(--input_text_color);
+  text-decoration: underline;
+}
+
+.modal_content button {
+  width: 100%;
+}
+.has_already_account {
+  margin-top: 32px;
+  margin-bottom: 42px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #757575;
+}
+.has_already_account a {
+  color: var(--blue);
+}
+.social_login {
+  margin-top: 42px;
+  border-top: 1px solid #f5f5f5;
+  position: relative;
+  margin-bottom: 42px;
+}
+
+.social_login_title {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #fff;
+  color: #212121;
+  text-align: center;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social_handles {
+  margin-top: 42px;
+}
+
+.login_width_social_handle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #fafafa;
+  border: 1px solid #f5f5f5;
+  border-radius: 12px;
+  padding: 8px 16px;
+}
+.login_width_social_handle:last-child {
+  margin-top: 20px;
+}

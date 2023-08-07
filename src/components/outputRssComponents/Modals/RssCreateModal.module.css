@@ -1,0 +1,50 @@
+.checkboxes {
+  margin-top: 20px;
+}
+.checkboxes label .checkmark {
+  cursor: pointer;
+  padding: 4px 10px 4px 10px !important;
+  border-radius: 100px;
+
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  background: #f5f5f5;
+  color: #616161;
+  border-color: #f5f5f5;
+  margin-right: 10px;
+  margin-bottom: 20px !important;
+  display: inline-block;
+}
+.checkboxes label span {
+  color: #7079e0;
+}
+.hidden_checkbox {
+  display: none;
+}
+.checkboxes input:checked ~ .checkmark {
+  background: #ffeeff;
+  border: 1px solid #7079e0;
+}
+.radiobutton {
+  margin-bottom: 20px;
+}
+.radio_inline {
+  width: 100%;
+  display: block;
+  padding-top: 10px;
+}
+.outputrss textarea {
+  width: 100% !important;
+  background: transparent;
+  border: none;
+}
+.outputrss {
+  margin-top: 23px;
+}
+.outputrss textarea:focus {
+  outline: none;
+}

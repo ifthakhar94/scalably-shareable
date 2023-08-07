@@ -1,0 +1,224 @@
+/*
+============= Margin Utilites =================
+ */
+
+/* Margin 10px */
+.mg_b0 {
+  margin-bottom: 0px !important;
+}
+.mg_t10 {
+  margin-top: 10px;
+}
+.mg_r10 {
+  margin-right: 10px;
+}
+.mg_b10 {
+  margin-bottom: 10px;
+}
+.mg_l10 {
+  margin-left: 10px;
+}
+
+/* Margin 20px */
+.mg_t20 {
+  margin-top: 20px;
+}
+.mg_r20 {
+  margin-right: 20px;
+}
+.mg_b20 {
+  margin-bottom: 20px;
+}
+.mg_l20 {
+  margin-left: 20px;
+}
+
+/* Margin 30px */
+.mg_t30 {
+  margin-top: 30px;
+}
+.mg_r30 {
+  margin-right: 30px;
+}
+.mg_b30 {
+  margin-bottom: 30px;
+}
+.mg_l30 {
+  margin-left: 30px;
+}
+
+/* Margin 40px */
+.mg_t40 {
+  margin-top: 40px;
+}
+.mg_r40 {
+  margin-right: 40px;
+}
+.mg_b40 {
+  margin-bottom: 40px;
+}
+.mg_l40 {
+  margin-left: 40px;
+}
+
+/* Margin 50px */
+
+.mg_t50 {
+  margin-top: 50px;
+}
+.mg_r50 {
+  margin-right: 50px;
+}
+.mg_b50 {
+  margin-bottom: 50px;
+}
+.mg_l50 {
+  margin-left: 50px;
+}
+
+/*
+============= Padding Utilites =================
+ */
+
+/* Padding 10px */
+
+.pd_t10 {
+  padding-top: 10px;
+}
+
+.pd_r10 {
+  padding-right: 10px;
+}
+
+.pd_b10 {
+  padding-bottom: 10px;
+}
+
+.pd_l10 {
+  padding-left: 10px;
+}
+
+/* Padding 20px */
+
+.pd_t20 {
+  padding-top: 20px;
+}
+
+.pd_r20 {
+  padding-right: 20px;
+}
+
+.pd_b20 {
+  padding-bottom: 20px;
+}
+
+.pd_l20 {
+  padding-left: 20px;
+}
+
+/* Padding 30px */
+
+.pd_t30 {
+  padding-top: 30px;
+}
+
+.pd_r30 {
+  padding-right: 30px;
+}
+
+.pd_b30 {
+  padding-bottom: 30px;
+}
+
+.pd_l30 {
+  padding-left: 30px;
+}
+
+/* Padding 40px */
+
+.pd_t40 {
+  padding-top: 40px;
+}
+
+.pd_r40 {
+  padding-right: 40px;
+}
+
+.pd_b40 {
+  padding-bottom: 40px;
+}
+
+.pd_l40 {
+  padding-left: 40px;
+}
+
+/* Padding 50px */
+
+.pd_t50 {
+  padding-top: 50px;
+}
+
+.pd_r50 {
+  padding-right: 50px;
+}
+
+.pd_b50 {
+  padding-bottom: 50px;
+}
+
+.pd_l50 {
+  padding-left: 50px;
+}
+
+/*
+============= Button Utilites =================
+*/
+.close_btn {
+  background-color: var(--white);
+  padding: 12px 16px 12px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--blue);
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid var(--blue);
+}
+
+.common_btn {
+  background-color: var(--blue);
+  padding: 12px 16px 12px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--white);
+  border: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.common_btn_width {
+  width: 100%;
+}
+.common_btn_extra_margin {
+  margin-bottom: 12px;
+}
+
+/*
+============= Input Field Utilites =================
+*/
+
+.common_input {
+  border-radius: 12px;
+  padding: 14px 16px 14px 16px;
+  background-color: var(--input_border);
+  border: 1px solid var(--input_border);
+  color: var(--input_text_color);
+  font-weight: 500;
+  font-size: 14px;
+  font-family: var(--roboto);
+  outline: none;
+}

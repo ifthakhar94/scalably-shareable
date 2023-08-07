@@ -1,0 +1,30 @@
+.tablePagination {
+  display: flex;
+  font-weight: 500;
+  font-size: 12px;
+  color: #757575;
+  justify-content: flex-end;
+}
+
+.prev_icon {
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.prev_icon.disable {
+  pointer-events: none !important;
+}
+
+.next_icon {
+  cursor: pointer;
+}
+.next_icon.disable {
+  pointer-events: none !important;
+}
+.next_icon.disable svg {
+  opacity: 0.5;
+}
+.prev_icon.disable svg {
+  opacity: 0.5;
+}

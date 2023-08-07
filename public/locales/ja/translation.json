@@ -1,0 +1,13 @@
+{
+  "mediatop": {
+    "title1": "カテゴリー",
+    "title2": "新しい記事",
+    "title3": "接続されているアセット",
+    "rm_btn": "続きを読む",
+    "source": "元記事"
+  },
+  "medianewsAsset": {
+    "finalDate": "最終更新",
+    "owner": "オーナー"
+  }
+}

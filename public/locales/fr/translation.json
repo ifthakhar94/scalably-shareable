@@ -1,0 +1,12 @@
+{
+  "mediatop": {
+    "title1": "Catégories",
+    "title2": "Nouveaux articles",
+    "title3": "Actifs Connectés",
+    "rm_btn": "EN SAVOIR PLUS"
+  },
+  "medianewsAsset": {
+    "finalDate": "Dernière mise à jour",
+    "owner": "Propriétaire"
+  }
+}

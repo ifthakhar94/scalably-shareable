@@ -1,0 +1,39 @@
+.title12 {
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+.total .title12 {
+  font-size: 20px;
+}
+.total .para1 {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+.total .subparaTitle {
+  font-weight: 700;
+  color: #616161;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+.total .lists,
+.Sublists {
+  font-size: 15px;
+  margin-left: 26px;
+}
+.total .lists li {
+  margin-bottom: 40px;
+}
+.total .lists li:last-child {
+  margin-bottom: 75px;
+}
+
+.total .Sublists li {
+  margin-bottom: 4px;
+}
+.total .Sublists li:last-child {
+  margin-bottom: 40px;
+}
+.highliGhted {
+  background-color: yellow;
+}

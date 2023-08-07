@@ -1,0 +1,43 @@
+.modal_content {
+  padding: 40px;
+  max-width: 508px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+  margin: 0 auto;
+  overflow-y: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.creatAssetBtns {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.creatAssetBtns button {
+  width: 367px;
+  /* height: 44px; */
+}
+
+.box button a {
+  color: #fff;
+}
+.box button {
+  flex-grow: 1;
+  margin: 4px;
+}
+.modal_text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #757575;
+  margin-bottom: 10px;
+  margin-top: 8px;
+}

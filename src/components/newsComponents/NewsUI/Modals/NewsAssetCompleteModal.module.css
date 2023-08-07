@@ -1,0 +1,92 @@
+.brand_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--blue);
+  margin: 0;
+}
+.modal_body {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  top: 0px;
+  padding-top: 0px;
+  left: 0;
+  background: rgba(33, 33, 33, 0.4);
+  /* overflow: hidden; */
+}
+
+/* .modal_content {
+  padding: 40px;
+  width: 508px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+  margin: 0 auto;
+  overflow-y: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+} */
+.add_hub_confirm_modal_body .modal_content {
+  width: 508px;
+}
+
+.modal_content {
+  padding: 40px;
+  width: 443px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+  margin: 0 auto;
+  overflow-y: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal_text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #757575;
+  margin-bottom: 10px;
+  margin-top: 8px;
+  line-height: 24px;
+}
+.asseydetailModal_text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #757575;
+  margin-bottom: 20px;
+  margin-top: 8px;
+  line-height: 24px;
+  width: 428px;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.newsAssetConfirmButton {
+  display: flex;
+  justify-content: left;
+  width: 50%;
+}
+
+.box button a {
+  color: #fff;
+}
+.box button,
+.newsAssetConfirmButton button {
+  flex-grow: 1;
+  margin: 4px;
+}
+
+.pos_fixed {
+  position: fixed !important;
+}

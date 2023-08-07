@@ -1,0 +1,44 @@
+.otp_input_field {
+  margin: 10px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.otp_input_field input {
+  text-align: center;
+  width: 51.33px;
+  height: 48px;
+  background: #fafafa;
+  border-radius: 12px;
+  border: none;
+}
+
+.otp_input_field input:focus {
+  outline: none;
+}
+
+.otp_input_field input::placeholder {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.has_already_account {
+  margin-top: 20px;
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #757575;
+}
+.has_already_account a {
+  color: var(--blue);
+}
+
+.back_to_email_page {
+  font-size: 14px;
+  color: #7079e0;
+  text-align: center;
+  display: block;
+}

@@ -1,0 +1,149 @@
+.login_card {
+  padding: 40px;
+  max-width: 742px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+  margin: 0 auto;
+  overflow-y: hidden;
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.brand_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--blue);
+}
+.email_input {
+  margin-top: 20px;
+  padding: 14px 16px;
+  background: #fafafa;
+  border: 1px solid #f5f5f5;
+  border-radius: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.email_input p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  color: #616161;
+  padding-bottom: 0px;
+}
+
+.email_input input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: #212121;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 0px;
+
+  /* line-height: 20px; */
+}
+.url_section {
+  margin-top: 34px;
+  padding: 14px 16px;
+  width: 100%;
+  width: 666px;
+}
+
+.url_input_text {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #616161;
+  margin-bottom: 3px;
+}
+.url_link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #212121;
+  border: none;
+  background: #fafafa;
+}
+.url_link input {
+  text-decoration: none;
+}
+.url_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last_input {
+  margin-top: 20px;
+  padding: 14px 16px;
+  background: #fafafa;
+  border: 1px solid #f5f5f5;
+  border-radius: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.inside_text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #212121;
+}
+.selection_inner select {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  color: #212121;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAQAAAAZxLZ7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfnAxsKFgL4LHr5AAAANUlEQVQI12MsEGANYICD3xtYJnwoUWCsh3D/N074wMzAcOyAFSOjAwPD/8aeBrjSkoYSKAcA/VsOkx8jf8kAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDMtMjdUMDg6MjI6MDIrMDI6MDCEe0aaAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTAzLTI3VDA4OjIyOjAyKzAyOjAw9Sb+JgAAAABJRU5ErkJggg==);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+}
+.selection_inner option {
+  font-weight: 500;
+  font-size: 14px;
+  color: #212121;
+}
+.selection_inner select:focus {
+  outline: none;
+}
+.basic_selection_border_text {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #616161;
+  display: initial;
+  position: absolute;
+  top: -8px;
+  left: 15px;
+  padding: 0px;
+}
+.confirmEditSecondText {
+  width: 428px;
+  height: 48px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 8px;
+  color: #616161;
+  margin-bottom: 20px;
+}

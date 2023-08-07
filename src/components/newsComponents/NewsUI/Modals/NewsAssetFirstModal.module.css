@@ -1,0 +1,94 @@
+.modal_body_custom {
+  min-height: 100vh;
+  left: 0;
+}
+
+.modal_content {
+  padding: 40px;
+  max-width: 742px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+  margin: 0 auto;
+  overflow-y: hidden;
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.brand_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--blue);
+  margin: 0;
+}
+.modal_text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #757575;
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+
+.modal_text_pink_box {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-top: 23px;
+  margin-bottom: 20px;
+  padding: 12px 12px;
+  background: #ffeeff;
+  border: 1px solid #f5f5f5;
+  border-radius: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.modal_text_pink_box p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #757575;
+}
+.modal_image {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 53px;
+}
+
+.btn_custom_width {
+  width: 327px;
+  float: right;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.box button a {
+  color: #fff;
+}
+.box button {
+  flex-grow: 1;
+  margin: 4px;
+}
+.modal_text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #757575;
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+.fix_height_modal2 {
+  height: 554px;
+}
+.fixheight {
+  min-height: 587px;
+}

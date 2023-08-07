@@ -1,0 +1,11 @@
+/*
+============= Project Common Variables =================
+ */
+
+:root {
+  --white: #ffffff;
+  --blue: #36449b;
+  --input_border: #f5f5f5;
+  --input_text_color: #212121;
+  --roboto: 'roboto';
+}

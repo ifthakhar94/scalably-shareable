@@ -1,0 +1,93 @@
+.mainPoints {
+}
+.title12 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.totalDiv {
+  margin-left: 30px;
+}
+.totalDiv .title12 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.totalDiv .lists,
+.Sublists {
+  font-size: 15px;
+  margin-left: 26px;
+}
+.totalDiv .listText {
+  margin-left: 33px;
+}
+.totalDiv .mainPoints li {
+  color: black;
+  font-weight: 600;
+  width: max-content;
+  border-bottom: 2px solid black;
+  margin-bottom: 22px;
+}
+.totalDiv .eachParaText {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.boldText {
+  font-weight: 700;
+}
+
+.totalDiv .subPoints li {
+  border: none;
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 16px;
+
+  width: fit-content;
+}
+.totalDiv .seconSubPoints li {
+  border: none;
+  margin-left: 90px;
+  font-weight: 500;
+  font-size: 16px;
+  width: fit-content;
+}
+
+.totalDiv .subPoints li:last-child {
+  margin-bottom: 20px;
+}
+
+.lastPart {
+  margin-left: 30px;
+}
+.lastPart p,
+.lastTotaldiv p {
+  font-size: 16px;
+}
+
+.lastTotaldiv {
+  margin-bottom: 90px;
+}
+.totalDiv .title13 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.tableText table {
+  margin-top: 30px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+.tableText tr {
+  border: 2px solid black;
+}
+.tableText th {
+  border: 2px solid black;
+  padding: 8px;
+}
+.tableText td {
+  border: 2px solid black;
+  text-align: center;
+  padding: 8px;
+}
